@@ -62,7 +62,5 @@ bool* data_receive(unsigned char resolution = 128){
 }
 
 int main() {
-  while(1) {
-    is_ready();
-  }
+  //use the functions above defined for the integration of hx711 with Bluepill [stm32f103c8t6]
 }
